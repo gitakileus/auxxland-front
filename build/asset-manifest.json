@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3eeeea7.css",
+    "main.js": "/static/js/main.f39621ba.js",
+    "static/js/787.850f2887.chunk.js": "/static/js/787.850f2887.chunk.js",
+    "static/media/image 5.png": "/static/media/image 5.b3dc1d81df24e8c3d4cf.png",
+    "static/media/Purple Simple NFT Sale Instagram Post (13) (1) 1.png": "/static/media/Purple Simple NFT Sale Instagram Post (13) (1) 1.bab130749d15d47a1e8a.png",
+    "static/media/emzikoj_opening_on_a_futuristic_art_gallery_632efd99-5452-46fc-8c8c-dbc0e84a81a8 2.png": "/static/media/emzikoj_opening_on_a_futuristic_art_gallery_632efd99-5452-46fc-8c8c-dbc0e84a81a8 2.ccbe242fc6b21fbd881b.png",
+    "static/media/NFT Paris Auxxio (1) 1.png": "/static/media/NFT Paris Auxxio (1) 1.282239fcca3ec22c96c7.png",
+    "static/media/emzikoj_beautiful_futuristic_city_with_art_galleries_unreal_eng_559fafc4-a304-45c9-91e7-4c821696e388 1.png": "/static/media/emzikoj_beautiful_futuristic_city_with_art_galleries_unreal_eng_559fafc4-a304-45c9-91e7-4c821696e388 1.9de977bf49774c87da0f.png",
+    "static/media/emzikoj_opening_on_a_futuristic_art_gallery_632efd99-5452-46fc-8c8c-dbc0e84a81a8 1.png": "/static/media/emzikoj_opening_on_a_futuristic_art_gallery_632efd99-5452-46fc-8c8c-dbc0e84a81a8 1.98c2d4fdaf88fced3e38.png",
+    "index.html": "/index.html",
+    "main.b3eeeea7.css.map": "/static/css/main.b3eeeea7.css.map",
+    "main.f39621ba.js.map": "/static/js/main.f39621ba.js.map",
+    "787.850f2887.chunk.js.map": "/static/js/787.850f2887.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3eeeea7.css",
+    "static/js/main.f39621ba.js"
+  ]
+}
