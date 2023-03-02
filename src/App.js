@@ -12,7 +12,7 @@ import image9 from './assets/NFT Paris Auxxio (1) 1.png'
 
 import './App.css';
 import { ethers } from "ethers";
-import web3Modal, { getCurrentWalletAddress, getCurrentBalance, getCurrentNetworkInfo, provider, showWeb3WalletModal, selectedSinger } from './utils/wallet'
+import { getCurrentWalletAddress, getCurrentBalance, getCurrentNetworkInfo, showWeb3WalletModal, selectedSinger } from './utils/wallet'
 import { shortenAddress } from "./utils/helper"
 import { NETWORK_ID, CONTRACT_ADDRESS } from "./config/config"
 const ContractABI = require('./abi/ContractABI.json');
@@ -88,6 +88,9 @@ function App() {
     try {
       await showWeb3WalletModal();
       const address = await getCurrentWalletAddress();
+      if (address === "") {
+        return
+      }
       setWalStr(shortenAddress(address))
       const balance = await getCurrentBalance(address);
       setBalance(ethers.utils.formatEther(balance));
@@ -108,12 +111,6 @@ function App() {
       console.log(error);
     }
   };
-
-  useEffect(() => {
-    if (web3Modal.cachedProvider) {
-      connectWallet();
-    }
-  }, []);
 
   useEffect(() => {
     if (contract) {
