@@ -11,4 +11,4 @@ export const NETWORK_ID = DEBUG ? 97 : 56;
 export const RPC_URL = DAPP_READONLY_RPC;
 export const NETWORK_NAME = DEBUG ? "BscTestnet" : "Bsc" ;
 
-export const CONTRACT_ADDRESS = "0xd38874B576CA09d714Ab1dc94773798fd44b0FB9";
+export const CONTRACT_ADDRESS = "0xa043852D1345fF64B39cD8318Db86B2a51Bb220D";
